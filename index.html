@@ -11,14 +11,17 @@
     <h1>Ricetta Tiramisù</h1>
     <div class="paragrafo1">
         <h2>Introduzione alla ricetta</h2>
-        <img src="Tiramisu.jpeg" alt="tiramisù">
+        <center>
+            <img src="Tiramisu.jpeg" alt="tiramisù">
+        </center>
+        
         <p>
             Il tiramisù è uno dei capisaldi della <mark>cucina italiana</mark>, uno dei dolci al cucchiaio più amati e realizzati in tutto il mondo.
             Le origini del tiramisù sono molto incerte e diverse città ne rivendicano la paternità. Ciò di cui siamo certi è che dal <mark>1980</mark> in poi, 
             anno in cui questo termine venne inserito nel vocabolario italiano, il tiramisù ha avuto un successo enorme! 
         </p>
 
-        <table align="center" border="1" >
+        <table align="center" bordercolor="black">
             <tr><td align="center">Difficoltà</td><td align="center">Costo</td><td align="center">Tempo di realizzazione</td></tr>
             <tr><td align="center">Facile</td><td align="center">Circa 10 euro</td><td align="center">40 minuti</td></tr>
         </table>
@@ -49,30 +52,19 @@
         La ricetta è disponibile su
         <a href="https://ricette.giallozafferano.it/Tiramisu.html" target="_blank">Giallo zafferano</a>
 
-        <p>Inserisci mail:</p>
-        <form action="text">
-            <input type="email" name="mail">
-            <input type="submit">
-            <input type="reset">
-        </form>
-
-        <p>Inserisci Password:</p>
-        <form action="pin">
-            <input type="password" name="pin">
-            <input type="submit">
-            <input type="reset">
-        </form>
-
         <form>
-            <p>Acconsenti tracciamento dati?</p>
-            <input type="checkbox" name="check" value="Acconsenti">
+            <p>Inserisci la tua mail:</p>
+            <input type="email" name="e-mail" value="mail"><br>
+            <p>Inserisci il pin </p>
+            <input type="password" name="pin"><br>
+            <p>Acconsenti al trattamento dati?</p> <input type="checkbox" name="spunta" value="true"><br>
+            <p>Livello di gradimento</p>
+            <input type="radio" name="Alternativa 1" checked>Eccellente
+            <input type="radio" name="Alternativa 2" checked>Buono
+            <input type="radio" name="Alternativa 3" checked>Medio
+            <input type="radio" name="Alternativa 4" checked>Scarso
+            <input type="submit" name="bottone" value="invia">
 
-        </form>
-
-        <form>
-            <input type="radio">Buono
-            <input type="radio">Eccellente
-            <input type="radio">Pessimo
         </form>
 
     </div>
